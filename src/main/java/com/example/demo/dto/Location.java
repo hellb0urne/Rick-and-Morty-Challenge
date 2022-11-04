@@ -1,14 +1,15 @@
 package com.example.demo.dto;
-import java.io.Serializable;
-import java.util.ArrayList;
 
 import lombok.Data;
 
-@Data
-public class OriginObjectSchema implements Serializable {
+import java.util.ArrayList;
 
+@Data
+public class Location {
+
+    private String id;
     private String name;
-    private String url;
+    private String type;
     private String dimension;
     private ArrayList<String> residents;
 

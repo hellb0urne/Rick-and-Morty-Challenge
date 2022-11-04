@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
-@FeignClient(name = "USER-MOCK-API", url = "${external.mock.api.base-url}", configuration = FeignClientConfig.class)
+@FeignClient(name = "CHARACTER-API", url = "${external.mock.api.base-url}", configuration = FeignClientConfig.class)
 public interface UserFeignClient {
 
     @GetMapping(value = "/character/{id}", consumes = MediaType.APPLICATION_JSON_VALUE)

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class CharacterServiceImpl implements IServiceCharacter{
+public class ServiceCharacterImpl implements IServiceCharacter{
 
     private  final UserFeignClient userFeignClient;
 

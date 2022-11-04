@@ -15,7 +15,7 @@ class CharacterServiceTest {
     @Mock
     private UserFeignClient userFeing;
     @InjectMocks
-    private CharacterServiceImpl service;
+    private ServiceCharacterImpl service;
 
     @BeforeEach
     public void setup() throws Exception {
